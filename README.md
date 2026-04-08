@@ -2,7 +2,7 @@
 
 An agentic coding orchestrator with a Final Fantasy-inspired airship bridge UI. Define a software project, hit "Set Course", and watch a crew of AI agents — rendered as FF-style pixel art sprites at their bridge stations — plan, build, test, and review your project in real time.
 
-Built as an open source developer tool. Gamification (agent XP and leveling) is a core feature, not an afterthought.
+Built as an open source developer tool. Each agent has an XP and leveling system that grows across projects.
 
 ---
 
@@ -93,19 +93,6 @@ Heavy LLM calls run as **Oban jobs** — persistent, retryable, and crash-safe. 
 Default pipeline: `plan → architect → code → test → review → done`
 
 The orchestrator can loop (e.g. failed tests re-queue the coder with error context).
-
----
-
-## Sprites and Assets
-
-Sprite assets must be original or openly licensed — nothing ripped from FF games.
-
-Good sources:
-- [itch.io](https://itch.io/game-assets)
-- [OpenGameArt.org](https://opengameart.org/)
-- Custom commission
-
-Sprite sheets are preferred over GIFs for CSS animation state control.
 
 ---
 
