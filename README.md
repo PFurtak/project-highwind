@@ -29,13 +29,13 @@ Each agent has persistent XP and a level that grows across projects. Your Coder 
 
 ### Agent Levels
 
-| Level | Title | Sprite |
-|---|---|---|
-| 1 | Recruit | Basic villager |
-| 5 | Apprentice | Starter hero |
-| 10 | Journeyman | Armored |
-| 20 | Veteran | Full protagonist |
-| 50 | Legend | Superboss, glowing effects |
+| Level | Title |
+|---|---|
+| 1 | Recruit |
+| 5 | Apprentice |
+| 10 | Journeyman |
+| 20 | Veteran |
+| 50 | Legend |
 
 ---
 
