@@ -12,9 +12,7 @@ defmodule Highwind.Application do
       Highwind.Repo,
       {DNSCluster, query: Application.get_env(:highwind, :dns_cluster_query) || :ignore},
       {Phoenix.PubSub, name: Highwind.PubSub},
-      # Start a worker by calling: Highwind.Worker.start_link(arg)
-      # {Highwind.Worker, arg},
-      # Start to serve requests, typically the last entry
+      {Oban, Application.fetch_env!(:highwind, Oban)},
       HighwindWeb.Endpoint
     ]
 

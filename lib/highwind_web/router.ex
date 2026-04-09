@@ -17,7 +17,7 @@ defmodule HighwindWeb.Router do
   scope "/", HighwindWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    live "/", MissionControlLive
   end
 
   # Other scopes may use custom stacks.
